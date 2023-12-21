@@ -1,7 +1,7 @@
 plugins {
     id 'org.springframework.boot' version '3.2.0'
     id 'io.spring.dependency-management' version '1.1.4'
-    id 'org.flywaydb.flyway' version '10.2.0'
+    id 'org.flywaydb.flyway' version '9.16.2'
     id 'java'
     id 'maven-publish'
 }
@@ -15,7 +15,7 @@ apply plugin: 'maven-publish'
 
 ext {
     mapstruct_version = '1.5.5.Final'
-    flyway_version = '10.2.0'
+    flyway_version = '9.16.2'
     kafka_spring_version = '3.1.1'
     kafka_clients_version = '3.6.1'
     testcontainers_version = '1.19.3'
